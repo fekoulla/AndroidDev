@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ferielkoulla/Downloads/Cv/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="347524fffaee7704dbb6f109a854a48025857134">
+        <dex dex="/Users/ferielkoulla/Downloads/Cv/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7c7c00a5afd3386f49eb3fc45054e40ba7a9ccf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ferielkoulla/Downloads/Cv/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/ferielkoulla/Downloads/Cv/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fae5d51bdff47e54057f0203788f9d9e7f750fba/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ferielkoulla.cv.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/textViewDev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Développement Web"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textViewNetP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Feriel KOULLA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fe.koulla@gmail.com" />
+
+        <Button
+            android:id="@+id/buttonCompetences"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Competences" />
+
+        <Button
+            android:id="@+id/buttonExperiences"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Experiences" />
+
+        <Button
+            android:id="@+id/buttonFormation"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Formation" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
